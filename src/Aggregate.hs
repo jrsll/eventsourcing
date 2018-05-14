@@ -8,7 +8,7 @@ import           Data.Time.Calendar (Day (..))
 
 -- | Types
 
--- | A unique ID for an aggregate. This ID is assigned to all
+-- | A unique ID for an aggregate. This ID is assigned to all events.
 type AggregateId = String
 
 -- | Classes

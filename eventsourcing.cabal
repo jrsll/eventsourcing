@@ -8,7 +8,6 @@ maintainer:          johan.rosell@gmail.com
 copyright:           2018 Johan Rosell
 category:            EventSourcing
 build-type:          Simple
---documentation:       true
 extra-source-files:  README.md
 cabal-version:       >=1.10
 
@@ -23,15 +22,6 @@ library
                      , transformers
                      , aeson
                      , time
-                     -- move these to another file
-                     , ghc-mod
-                     , hlint
-                     --, hindent
-                     --, cabal-helper
-                     --, extra
-                     --, haskell-src-exts
-                     --, monad-journal
-                     --, optparse-applicative
   default-language:    Haskell2010
 
 test-suite eventsourcing-test
